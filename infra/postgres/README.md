@@ -31,3 +31,19 @@ terraform apply -auto-approve
 ``` sh 
 terraform destroy -auto-approve
 ```
+
+## Lambda
+
+
+### Zip
+``` sh 
+zip function.zip lambda_function.py
+```
+
+
+### Get Api Gateway URL
+``` sh 
+terraform output api_gateway_url
+```
+
+
